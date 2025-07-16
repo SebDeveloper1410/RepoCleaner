@@ -334,6 +334,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.After_Enabling__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.CHECKENABLED__c</field>
         <readable>true</readable>
     </fieldPermissions>
