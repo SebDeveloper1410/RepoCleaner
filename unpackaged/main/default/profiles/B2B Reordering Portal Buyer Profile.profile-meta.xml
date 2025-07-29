@@ -4504,4 +4504,8 @@
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
+    <classAccesses>
+        <apexClass>AccountValidator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
 </Profile>

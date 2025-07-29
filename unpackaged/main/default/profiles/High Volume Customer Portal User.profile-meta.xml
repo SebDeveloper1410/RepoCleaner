@@ -4621,4 +4621,8 @@
         <enabled>true</enabled>
         <name>WorkDotComUserPerm</name>
     </userPermissions>
+    <classAccesses>
+        <apexClass>AccountValidator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
 </Profile>

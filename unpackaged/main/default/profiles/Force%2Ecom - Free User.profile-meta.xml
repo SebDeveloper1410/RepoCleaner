@@ -4656,4 +4656,8 @@
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions>
+    <classAccesses>
+        <apexClass>AccountValidator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
 </Profile>
