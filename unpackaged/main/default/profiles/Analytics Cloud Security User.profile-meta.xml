@@ -3,6 +3,11 @@
     <custom>false</custom>
     <userLicense>Analytics Cloud Integration User</userLicense>
     <applicationVisibilities>
+        <application>RepoCleanerApp</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>false</default>
         <visible>false</visible>
