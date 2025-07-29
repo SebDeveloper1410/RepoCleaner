@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <hasActivationRequired>false</hasActivationRequired>
     <label>Experience Profile Manager</label>
@@ -47,11 +47,6 @@
         <enabled>true</enabled>
         <name>SandboxTestingInCommunityApp</name>
     </userPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.Repo_Cleaner_Custom_Field__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>true</allowDelete>
