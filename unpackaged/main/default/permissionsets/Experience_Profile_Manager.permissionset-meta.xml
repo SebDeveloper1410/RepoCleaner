@@ -47,14 +47,19 @@
         <enabled>true</enabled>
         <name>SandboxTestingInCommunityApp</name>
     </userPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Repo_Cleaner_Custom_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <objectPermissions>
-        <allowCreate>true</allowCreate>
+        <allowCreate>false</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Repo_Cleaner__c</object>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Case</object>
         <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
 </PermissionSet>
