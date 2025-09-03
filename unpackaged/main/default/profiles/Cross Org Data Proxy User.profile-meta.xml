@@ -3,11 +3,6 @@
     <custom>false</custom>
     <userLicense>XOrg Proxy User</userLicense>
     <applicationVisibilities>
-        <application>RepoCleanerApp</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>false</default>
         <visible>false</visible>
@@ -3553,10 +3548,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Account %28Sales%29 Layout</layout>
-        <recordType>Account.Removed_Record_Type</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4561,8 +4552,4 @@
         <enabled>true</enabled>
         <name>UseWebLink</name>
     </userPermissions>
-    <classAccesses>
-        <apexClass>AccountValidator</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
 </Profile>
