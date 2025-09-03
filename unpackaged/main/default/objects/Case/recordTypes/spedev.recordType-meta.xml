@@ -70,18 +70,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Value Delete</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Value Pending</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Value Test</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Web</fullName>
             <default>false</default>
         </values>
@@ -213,61 +201,6 @@
         </values>
         <values>
             <fullName>Structural</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>testPicklist__c</picklist>
-        <values>
-            <fullName>1</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Keyboard</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Mouse</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>bo</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>c</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>done</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>e</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>hi</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>s</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>test</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>test-repo-cleaner</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>z</fullName>
             <default>false</default>
         </values>
     </picklistValues>

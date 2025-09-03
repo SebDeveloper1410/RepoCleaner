@@ -1648,14 +1648,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <readable>false</readable>
+        <editable>true</editable>
         <field>Event.Field_A__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <readable>false</readable>
+        <editable>true</editable>
         <field>Event.Field_B__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3053,14 +3053,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <readable>false</readable>
+        <editable>true</editable>
         <field>Task.Field_A__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <readable>false</readable>
+        <editable>true</editable>
         <field>Task.Field_B__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3992,9 +3992,14 @@
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Account.Record_Type_Profile_Visualizer</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Removed_Record_Type</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>

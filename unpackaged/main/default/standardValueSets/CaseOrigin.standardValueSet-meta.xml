@@ -16,19 +16,4 @@
         <default>false</default>
         <label>Web</label>
     </standardValue>
-    <standardValue>
-        <fullName>Value Test</fullName>
-        <default>false</default>
-        <label>Value Test</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Value Delete</fullName>
-        <default>false</default>
-        <label>Value Delete</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Value Pending</fullName>
-        <default>false</default>
-        <label>Value Pending</label>
-    </standardValue>
 </StandardValueSet>
