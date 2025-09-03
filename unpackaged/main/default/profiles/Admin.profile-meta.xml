@@ -3,36 +3,64 @@
     <custom>false</custom>
     <userLicense>Salesforce</userLicense>
     <classAccesses>
-        <enabled>false</enabled>
+        <apexClass>ContactHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ContactHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>EmployeeManagement</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>FieldSetController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>GreetingService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>GreetingServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>HelloApexTest</apexClass>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <enabled>false</enabled>
+        <apexClass>NestedIfExample</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OpportunityHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OpportunityHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TaskHandler</apexClass>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <enabled>false</enabled>
         <apexClass>TaskHandlerTest</apexClass>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <enabled>false</enabled>
         <apexClass>AccountHandlerTest</apexClass>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <enabled>false</enabled>
-        <apexClass>AccountHandler</apexClass>
-    </classAccesses>
-    <classAccesses>
-        <enabled>false</enabled>
-        <apexClass>AccountService</apexClass>
-    </classAccesses>
-    <classAccesses>
-        <enabled>false</enabled>
         <apexClass>AccountServiceTest</apexClass>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <enabled>false</enabled>
         <apexClass>SimpleCalculatorTest</apexClass>
+        <enabled>true</enabled>
     </classAccesses>
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
@@ -840,9 +868,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <readable>false</readable>
+        <editable>true</editable>
         <field>Case.CHECKENABLED__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -865,13 +893,13 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.Field_Manually_Created__c</field>
+        <editable>false</editable>
+        <field>Case.IsEscalated</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.IsEscalated</field>
+        <editable>true</editable>
+        <field>Case.New_Numebr__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -942,6 +970,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.test_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1695,14 +1728,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <readable>false</readable>
+        <editable>true</editable>
         <field>Event.Field_A__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <readable>false</readable>
+        <editable>true</editable>
         <field>Event.Field_B__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2252,6 +2285,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.AccountId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3170,14 +3208,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <readable>false</readable>
+        <editable>true</editable>
         <field>Task.Field_A__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <readable>false</readable>
+        <editable>true</editable>
         <field>Task.Field_B__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -4123,9 +4161,14 @@
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Account.Record_Type_Profile_Visualizer</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Removed_Record_Type</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -4742,11 +4785,11 @@
         <name>ApiEnabled</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>AppFrameworkManageApp</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>AppFrameworkManageTemplate</name>
     </userPermissions>
     <userPermissions>
@@ -4778,7 +4821,7 @@
         <name>CanAccessCE</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>CanApproveUninstalledApps</name>
     </userPermissions>
     <userPermissions>
@@ -5521,4 +5564,8 @@
         <enabled>true</enabled>
         <name>WorkCalibrationUser</name>
     </userPermissions>
+    <pageAccesses>
+        <apexPage>VP_Repo_Cleaner</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
 </Profile>
