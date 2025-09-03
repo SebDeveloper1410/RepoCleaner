@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>spedev</fullName>
+    <fullName>Record_Type_Repo_Cleaner</fullName>
     <active>true</active>
     <businessProcess>Support Tester</businessProcess>
-    <label>spedev</label>
+    <label>Record-Type-Repo-Cleaner</label>
     <picklistValues>
         <picklist>CHECKENABLED__c</picklist>
         <values>
@@ -70,15 +70,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Value Delete</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Value Pending</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Value Test</fullName>
             <default>false</default>
         </values>
         <values>

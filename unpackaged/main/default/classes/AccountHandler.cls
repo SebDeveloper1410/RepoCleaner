@@ -4,10 +4,9 @@ public class AccountHandler {
             throw new IllegalArgumentException('Account name cannot be empty.');
         }
         
-        // Validate account name using AccountValidator
-        AccountValidator.validateAccountName(name);
-        
         Account acc = new Account(Name = name);
         insert acc;
     }
 }
+
+// Test Deployment
